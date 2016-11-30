@@ -89,8 +89,13 @@
 <p>HydrOS is a multikernel research operating system written to withstand complete software failure, as well as partial hardware failure, in Erlang. HydrOS uses the multikernel model to seperate a multicore computer into a set of individual computing nodes, each capable of withstanding the failure of the others.</p>
 <p>Each node runs a lightly modified BEAM virtual machine as it's kernel, with the operating system and hosted programs written in Erlang.</p>
 <h2 id="try-it-out">Try it out</h2>
-<p>Download the latest version (version 0.01) <a href="./release/hydros-478.img">here</a>.</p>
-<p>Once the image is unpacked, simply open it in a supported virtual machine (examples listed below), or write the image to a USB stick and run it on a real computer. Please note that this is research software, not yet ready for real use. You should only try it out on real hardware if you are not afraid for it to be bricked (although we don't envision this happening). Using the OS in an emulated environment is strongly adviced.</p>
+<<<<<<< HEAD
+<p>Download the latest version (version 0.01) here.</p>
+=======
+<p>Download the latest version (version 0.01) <a href="hydros-478.img">here</a>.</p>
+>>>>>>> fe8c44cd4742be27f45cf17962396bb295aa1006
+<p>Once the image is unpacked, simple open it in a supported virtual machine (examples listed below), or write the image to a USB stick and run it on a real computer.</p>
+<p>Please note that this is research software, not yet ready for real deployment. Use at your own risk!</p>
 <h2 id="host-requirements">Host Requirements</h2>
 <p>HydrOS runs on all physical machines tested. It has also been tested in the following virtual environments:</p>
 <ul>
@@ -101,31 +106,18 @@
 <p>Unfortunately, VirtualBox is not supported at this time.</p>
 <h2 id="building">Building</h2>
 <ol>
-<li>Please download the latest source archive <a href="./release/hydros-src-478.tar.gz">here</a>.</li>
+<<<<<<< HEAD
+<li>Please download the latest source archive here.</li>
+=======
+<li>Please download the latest source archive <a href="hydros-src-478.tar.gz">here</a>.</li>
+>>>>>>> fe8c44cd4742be27f45cf17962396bb295aa1006
 <li>Build a cross-compiler toolchain that targets <code>x86_64-unknown-elf</code> with <code>crosstool-ng</code></li>
 <li>Run <code>make</code> in the HydrOS root directory.</li>
 <li>Either write the <code>build/hydros.img</code> file to a USB drive for testing, or run the OS in a virtual machine.</li>
 </ol>
 <h2 id="keep-up-to-date">Keep up to date</h2>
-<p>Join our mailing list to hear about new releases of HydrOS. We will not to give your email address to any third parties, aside our list manager, MailChimp.</p>
-<!-- Begin MailChimp Signup Form -->
-
-<p><link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-    /<em> Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. </em>/
-</style>
-<div id="mc_embed_signup">
-<form action="//hydros-project.us14.list-manage.com/subscribe/post?u=d6d4d8a6c17506b92aedd38de&amp;id=501a91e678" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div id="mc_embed_signup_scroll"></p>
-<p><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d6d4d8a6c17506b92aedd38de_501a91e678" tabindex="-1" value=""></div>
-<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-</div>
-</form>
-</div></p>
-<!--End mc_embed_signup--></div>
+<pre><code>&lt;iframe src=&quot;http://www.google.com&quot; /&gt;
+</code></pre></div>
             
         </div>
 
@@ -172,5 +164,5 @@
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2016-10-03 14:54:34.050475
+Build Date UTC : 2016-09-05 12:42:59.170868
 -->
