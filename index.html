@@ -89,20 +89,11 @@
 
 <h1 id="hydros-a-massively-fault-tolerant-operating-system">HydrOS: A massively fault tolerant operating system</h1>
 <p>HydrOS is a multikernel research operating system written to withstand complete software failure, as well as partial hardware failure, in Erlang. HydrOS uses the multikernel model to seperate a multicore computer into a set of individual computing nodes, each capable of withstanding the failure of the others.</p>
-<p>Each node runs a lightly modified BEAM virtual machine as its kernel, with the operating system and hosted programs written in Erlang.</p>
+<p>Each node runs a lightly modified BEAM virtual machine as it's kernel, with the operating system and hosted programs written in Erlang.</p>
+<p>An introductory talk about the project (presented at the Erlang User Conference 2016) can be viewed <a href="https://www.youtube.com/watch?v=9XqHiumZ02E" target="_blank">here</a>.</p>
 <h2 id="try-it-out">Try it out</h2>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<p>Download the latest version (version 0.01) here.</p>
-=======
-<p>Download the latest version (version 0.01) <a href="hydros-478.img">here</a>.</p>
->>>>>>> fe8c44cd4742be27f45cf17962396bb295aa1006
-<p>Once the image is unpacked, simple open it in a supported virtual machine (examples listed below), or write the image to a USB stick and run it on a real computer.</p>
-=======
-<p>Download the latest version (version 0.01) <a href="./release/hydros-478.img">here</a>.</p>
-<p>Once the image is unpacked, simply open it in a supported virtual machine (examples listed below), or write the image to a USB stick and run it on a real computer.</p>
->>>>>>> 86a9fb52dc07d2bb25b352e97313a06f793d76d1
-<p>Please note that this is research software, not yet ready for real deployment. Use at your own risk!</p>
+<p>Download the latest version (version 0.2.519) <a href="./release/hydros-0.2.519.img">here</a>.</p>
+<p>Once the image is unpacked, simply start it in a supported virtual machine (examples listed below), or write the image to a USB stick and run it on a real computer. Please note that this is research software, not yet ready for real use. You should only try it out on real hardware if you are not afraid for it to be bricked (although we don't envision this happening). Using the OS in an emulated environment is strongly adviced.</p>
 <h2 id="host-requirements">Host Requirements</h2>
 <p>HydrOS runs on all physical machines tested. It has also been tested in the following virtual environments:</p>
 <ul>
@@ -113,20 +104,12 @@
 <p>Unfortunately, VirtualBox is not supported at this time.</p>
 <h2 id="building">Building</h2>
 <ol>
-<<<<<<< HEAD
-<li>Please download the latest source archive here.</li>
-=======
-<li>Please download the latest source archive <a href="hydros-src-478.tar.gz">here</a>.</li>
->>>>>>> fe8c44cd4742be27f45cf17962396bb295aa1006
+<li>Please download the latest source archive <a href="./release/hydros-src-0.2.519.tar.gz">here</a>.</li>
 <li>Build a cross-compiler toolchain that targets <code>x86_64-unknown-elf</code> with <code>crosstool-ng</code></li>
 <li>Run <code>make</code> in the HydrOS root directory.</li>
 <li>Either write the <code>build/hydros.img</code> file to a USB drive for testing, or run the OS in a virtual machine.</li>
 </ol>
 <h2 id="keep-up-to-date">Keep up to date</h2>
-<<<<<<< HEAD
-<pre><code>&lt;iframe src=&quot;http://www.google.com&quot; /&gt;
-</code></pre></div>
-=======
 <p>Join our mailing list to hear about new releases of HydrOS. We will not to give your email address to any third parties, aside our list manager, MailChimp.</p>
 <!-- Begin MailChimp Signup Form -->
 
@@ -149,7 +132,6 @@
 
 <h2 id="contact-us">Contact us</h2>
 <p>Please send feedback, thoughts and suggestions to 'secw2 (the at sign here) kent (dot) ac (dot) uk'.</p></div>
->>>>>>> 86a9fb52dc07d2bb25b352e97313a06f793d76d1
             
         </div>
 
@@ -196,9 +178,5 @@
 
 <!--
 MkDocs version : 0.15.3
-<<<<<<< HEAD
-Build Date UTC : 2016-09-05 12:42:59.170868
-=======
-Build Date UTC : 2016-09-07 23:35:04.962465
->>>>>>> 86a9fb52dc07d2bb25b352e97313a06f793d76d1
+Build Date UTC : 2016-11-30 14:27:27.291726
 -->
