@@ -2,17 +2,25 @@
     "docs": [
         {
             "location": "/",
+<<<<<<< HEAD
             "text": "HydrOS: A massively fault tolerant operating system\n\n\nHydrOS is a multikernel research operating system written to withstand complete software failure, as well as partial hardware failure, in Erlang. HydrOS uses the multikernel model to seperate a multicore computer into a set of individual computing nodes, each capable of withstanding the failure of the others.\n\n\nEach node runs a lightly modified BEAM virtual machine as it's kernel, with the operating system and hosted programs written in Erlang.\n\n\nTry it out\n\n\nDownload the latest version (version 0.01) here.\n\n\nOnce the image is unpacked, simple open it in a supported virtual machine (examples listed below), or write the image to a USB stick and run it on a real computer.\n\n\nPlease note that this is research software, not yet ready for real deployment. Use at your own risk!\n\n\nHost Requirements\n\n\nHydrOS runs on all physical machines tested. It has also been tested in the following virtual environments:\n\n\n\n\nBochs\n\n\nQemu\n\n\nKVM\n\n\n\n\nUnfortunately, VirtualBox is not supported at this time.\n\n\nBuilding\n\n\n\n\nPlease download the latest source archive here.\n\n\nBuild a cross-compiler toolchain that targets \nx86_64-unknown-elf\n with \ncrosstool-ng\n\n\nRun \nmake\n in the HydrOS root directory.\n\n\nEither write the \nbuild/hydros.img\n file to a USB drive for testing, or run the OS in a virtual machine.\n\n\n\n\nKeep up to date\n\n\n<iframe src=\"http://www.google.com\" />",
+=======
+            "text": "HydrOS: A massively fault tolerant operating system\n\n\nHydrOS is a multikernel research operating system written to withstand complete software failure, as well as partial hardware failure, in Erlang. HydrOS uses the multikernel model to seperate a multicore computer into a set of individual computing nodes, each capable of withstanding the failure of the others.\n\n\nEach node runs a lightly modified BEAM virtual machine as its kernel, with the operating system and hosted programs written in Erlang.\n\n\nTry it out\n\n\nDownload the latest version (version 0.01) \nhere\n.\n\n\nOnce the image is unpacked, simply open it in a supported virtual machine (examples listed below), or write the image to a USB stick and run it on a real computer.\n\n\nPlease note that this is research software, not yet ready for real deployment. Use at your own risk!\n\n\nHost Requirements\n\n\nHydrOS runs on all physical machines tested. It has also been tested in the following virtual environments:\n\n\n\n\nBochs\n\n\nQemu\n\n\nKVM\n\n\n\n\nUnfortunately, VirtualBox is not supported at this time.\n\n\nBuilding\n\n\n\n\nPlease download the latest source archive \nhere\n.\n\n\nBuild a cross-compiler toolchain that targets \nx86_64-unknown-elf\n with \ncrosstool-ng\n\n\nRun \nmake\n in the HydrOS root directory.\n\n\nEither write the \nbuild/hydros.img\n file to a USB drive for testing, or run the OS in a virtual machine.\n\n\n\n\nKeep up to date\n\n\nJoin our mailing list to hear about new releases of HydrOS. We will not to give your email address to any third parties, aside our list manager, MailChimp.\n\n\n\n\n\n\n\n\n    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }\n    /<em> Add your own MailChimp form style overrides in your site stylesheet or in this style block.\n       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. </em>/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContact us\n\n\nPlease send feedback, thoughts and suggestions to 'secw2 (the at sign here) kent (dot) ac (dot) uk'.",
+>>>>>>> 86a9fb52dc07d2bb25b352e97313a06f793d76d1
             "title": "Home"
         },
         {
             "location": "/#hydros-a-massively-fault-tolerant-operating-system",
-            "text": "HydrOS is a multikernel research operating system written to withstand complete software failure, as well as partial hardware failure, in Erlang. HydrOS uses the multikernel model to seperate a multicore computer into a set of individual computing nodes, each capable of withstanding the failure of the others.  Each node runs a lightly modified BEAM virtual machine as it's kernel, with the operating system and hosted programs written in Erlang.",
+            "text": "HydrOS is a multikernel research operating system written to withstand complete software failure, as well as partial hardware failure, in Erlang. HydrOS uses the multikernel model to seperate a multicore computer into a set of individual computing nodes, each capable of withstanding the failure of the others.  Each node runs a lightly modified BEAM virtual machine as its kernel, with the operating system and hosted programs written in Erlang.",
             "title": "HydrOS: A massively fault tolerant operating system"
         },
         {
             "location": "/#try-it-out",
+<<<<<<< HEAD
             "text": "Download the latest version (version 0.01) here.  Once the image is unpacked, simple open it in a supported virtual machine (examples listed below), or write the image to a USB stick and run it on a real computer.  Please note that this is research software, not yet ready for real deployment. Use at your own risk!",
+=======
+            "text": "Download the latest version (version 0.01)  here .  Once the image is unpacked, simply open it in a supported virtual machine (examples listed below), or write the image to a USB stick and run it on a real computer.  Please note that this is research software, not yet ready for real deployment. Use at your own risk!",
+>>>>>>> 86a9fb52dc07d2bb25b352e97313a06f793d76d1
             "title": "Try it out"
         },
         {
@@ -29,6 +37,11 @@
             "location": "/#keep-up-to-date",
             "text": "<iframe src=\"http://www.google.com\" />",
             "title": "Keep up to date"
+        },
+        {
+            "location": "/#contact-us",
+            "text": "Please send feedback, thoughts and suggestions to 'secw2 (the at sign here) kent (dot) ac (dot) uk'.",
+            "title": "Contact us"
         }
     ]
 }
