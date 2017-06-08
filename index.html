@@ -94,7 +94,7 @@
 <p>Each node runs a lightly modified BEAM virtual machine as it's kernel, with the operating system and hosted programs written in Erlang.</p>
 <p>An introductory talk about the project (presented at the Erlang User Conference 2016) can be viewed <a href="https://www.youtube.com/watch?v=9XqHiumZ02E" target="_blank">here</a>.</p>
 <h2 id="try-it-out">Try it out</h2>
-<p>Download the latest version (version 0.2.521) <a href="./release/hydros-0.2.521.img">here</a>.</p>
+<p>Download the latest version (version 0.3-BETA-1.684) <a href="./release/hydros-0.3-BETA-1.684.img">here</a>.</p>
 <p>Once the image is unpacked, simply start it in a supported virtual machine (examples listed below), or write the image to a USB stick and run it on a real computer. Please note that this is research software, not yet ready for real use. You should only try it out on real hardware if you are not afraid for it to be bricked (although we don't envision this happening). Using the OS in an emulated environment is strongly adviced.</p>
 <h2 id="host-requirements">Host Requirements</h2>
 <p>HydrOS runs on all physical machines tested. It has also been tested in the following virtual environments:</p>
@@ -106,7 +106,7 @@
 <p>Unfortunately, VirtualBox is not supported at this time.</p>
 <h2 id="building">Building</h2>
 <ol>
-<li>Please download the latest source archive <a href="./release/hydros-src-0.2.521.tar.gz">here</a>.</li>
+<li>Please download the latest source archive <a href="./release/hydros-src-0.3-BETA-1.684.tar.gz">here</a>.</li>
 <li>Build a cross-compiler toolchain that targets <code>x86_64-unknown-elf</code> with <code>crosstool-ng</code></li>
 <li>Run <code>make</code> in the HydrOS root directory.</li>
 <li>Either write the <code>build/hydros.img</code> file to a USB drive for testing, or run the OS in a virtual machine.</li>
